@@ -1,0 +1,187 @@
+.main {
+  padding: 20px;
+  margin: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 80%;
+  top: 0px;
+  align-items: center;
+}
+
+.top h1 {
+  color: #020253;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #7676d3;
+  padding: 10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 50px;
+  color: #d31f1f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subone h2 {
+  color: #020253;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subone h3 {
+  color: #6d6c6c;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.buttontwo button {
+  background-color: #ff43e6;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  border-radius: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+  background-color: #ecfaf9;
+  justify-content: left;
+  align-items: left;
+  margin-right: 900px;
+  margin-left: 13px;
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 400px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: right;
+  margin-right: 240px;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6 {
+  padding: 50px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.grid-item1 {
+  background-color: #ff4848;
+  
+}
+
+.grid-item2 {
+  background-color: #28bd14;
+}
+
+.grid-item3 {
+  background-color: #111f6e;
+}
+
+.grid-item4 {
+  background-color: #d6199d;
+  
+}
+
+.grid-item5 {
+  background-color: #54857c;
+}
+
+.grid-item6 {
+  background-color: #715872;
+}
+
+.grid-item1 h4,
+.grid-item1 p,
+.grid-item2 h5,
+.grid-item2 p,
+.grid-item3 h5,
+.grid-item3 p,
+.grid-item4 h6,
+.grid-item4 p,
+.grid-item5 p,
+.grid-item6 h6,
+.grid-item6 p {
+  text-align: left;
+ 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.def{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #066d8d;
+  padding: 25px;
+}
+
+.bottom button {
+  margin-left: auto;
+  border-radius: 40px;
+  height: 37px;
+  margin-right: 50px;
+  background-color: #ff43e6;
+}
+
+
+
+
+/* /* .grid-container span {
+  color: rgb(255, 255, 255);
+  font-size: 15px; */
+ 
+
+/* .abc{
+  font-size: 200px;
+  
+} */
+
